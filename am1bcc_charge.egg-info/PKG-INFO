@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: am1bcc-charge
+Version: 0.1.0
+Summary: charge using openeye quacpac
+Home-page: UNKNOWN
+Author: Yuanqing Wang
+Author-email: wangyq@wangyq.net
+License: Other/Proprietary License
+Description: UNKNOWN
+Keywords: openeye cloud orion
+Platform: UNKNOWN
+Classifier: Development Status :: Beta
+Classifier: Intended Audience :: Orion
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7

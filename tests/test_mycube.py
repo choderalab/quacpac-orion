@@ -3,7 +3,7 @@ from unittest import TestCase
 from datarecord import OERecord
 from floe.test import CubeTestRunner
 
-from am1bcc_charge.mycube import MyCube
+from am1bcc_charge.am1bcc_charge import AM1BCCCharge
 
 
 class MyCubeTest(TestCase):
