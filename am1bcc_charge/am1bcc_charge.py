@@ -67,9 +67,9 @@ class AM1BCCCharge(RecordPortsMixin, ComputeCube):
         omega.SetCanonOrder(False)
         omega.SetSampleHydrogens(True)
         omega.SetStrictStereo(False) # JDC
-        # omega.SetMaxSearchTime(self.max_search_time) # maximum omega search time
-        # omega.SetEnergyWindow(self.energy_window)
-        # omega.SetMaxConfs(self.max_confs)
+        omega.SetMaxSearchTime(self.args.max_search_time) # maximum omega search time
+        omega.SetEnergyWindow(self.args.energy_window)
+        omega.SetMaxConfs(self.args.max_confs)
         omega.SetRMSThreshold(1.0)
         self.omega = omega
 
