@@ -43,12 +43,12 @@ class AM1BCCCharge(RecordPortsMixin, ComputeCube):
         default=10,
         help_text='Maximum number of conformers.')
 
-    max_search_time = DecimalParameter(
+    max_search_time = IntegerParameter(
         'max_search_time',
-        default=2.0,
+        default=2,
         help_text = 'Maiximum search time.')
 
-    energy_window = DecimalParameter(
+    energy_window = IntegerParameter(
         'energy_window',
         default=15,
         help_text='Energy window.')
@@ -67,9 +67,9 @@ class AM1BCCCharge(RecordPortsMixin, ComputeCube):
         omega.SetCanonOrder(False)
         omega.SetSampleHydrogens(True)
         omega.SetStrictStereo(False) # JDC
-        omega.SetMaxSearchTime(max_search_time) # maximum omega search time
-        omega.SetEnergyWindow(energy_window)
-        omega.SetMaxConfs(max_confs)
+        # omega.SetMaxSearchTime(self.max_search_time) # maximum omega search time
+        # omega.SetEnergyWindow(self.energy_window)
+        # omega.SetMaxConfs(self.max_confs)
         omega.SetRMSThreshold(1.0)
         self.omega = omega
 
