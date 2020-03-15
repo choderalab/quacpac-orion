@@ -1,0 +1,12 @@
+{
+  "name": "am1bcc_charge",
+  "python_version": "3.7.3",
+  "requirements": "orion-requirements.txt",
+  "version": "0.1.0",
+  "conda_channels": [],
+  "conda_dependencies": [],
+  "build_requirements": {
+    "gpu": 0,
+    "instance_tags": []
+  }
+}
